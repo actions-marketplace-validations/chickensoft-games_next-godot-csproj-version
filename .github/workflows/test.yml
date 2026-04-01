@@ -17,7 +17,7 @@ jobs:
         # Use bash shells on all platforms.
         shell: bash
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         name: 🧾 Checkout
 
       - uses: ./
